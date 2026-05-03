@@ -29,7 +29,6 @@ sudo apt update
 sudo apt install python3
 sudo apt install python3-pip python3-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good
 pip install "kivy[base]"
-pip install adafruit-ampy
 ```
 2. в файлі `client/config.py` записуємо IP адресу сервера ось в цьому рядку
 ```python
